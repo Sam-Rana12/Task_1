@@ -1,0 +1,36 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.outerBox {
+  border: 1px solid;
+  overflow-y: scroll;
+  height: 85vh;
+}
+
+.box1{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    width: 90%;
+}
+
+.innerBox {
+  padding: 2rem;
+  border: 1px solid;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5px;
+  border-radius: 1rem;
+  flex-direction: column;
+}
